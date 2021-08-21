@@ -41,7 +41,7 @@ export default function Textform(props) {
         </div>
 
         <div className="container" style={{Color: props.mode==='dark'?'white':'black'}}>
-            <h3>Your text summary</h3>
+            <h3>Your text summary is: </h3>
             <p>{text.split(" ").length} words and {text.length} characters</p>
             <p>{0.008 * text.split(" ").length} minuts to read</p>
             <h3>Preview</h3>
