@@ -25,7 +25,7 @@ export default function Textform(props) {
         setText(event.target.value)
     } 
 
-    const [text, setText] = useState("")
+    const [text, setText] = useState("I Love You moti")
     // text = "new text"    //wrong way to update the text
     // setText("new Text")  // correct way to update the text
     return (
